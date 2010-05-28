@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>TaideTalli:<!-- TemplateExpr expr="docTitle" --></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+<meta name="keywords" content="Taidetalli, Sirkka Shayanin kirjoja, runokirjat, runokirjoja, runoja, runot, enkelit, enkeleitä, enkelirunoja, enkelirunot, enkelikirjoja, enkelikirjat">    
+    <link rel="stylesheet" type="text/css" href="../css/low.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="../css/screen.css" />
+	<script type="text/javascript" src="../js/cookies.js"></script>
+
+<!-- TemplateParam name="subIsOnLeft"       type="boolean" value="false" -->
+<!-- TemplateParam name="hasExtraColumn"    type="boolean" value="false" -->
+
+<!-- TemplateParam name="docTitle"          type="text"    value="" -->
+<!-- TemplateParam name="contentTitle"      type="text"    value="" -->
+
+<!-- TemplateParam name="isDetail"          type="boolean" value="false" -->
+
+<!-- TemplateParam name="isHome"            type="boolean" value="false" -->
+
+<!-- TemplateParam name="isSShayan"         type="boolean" value="false" -->
+<!-- TemplateParam name="isSShayanAppear"   type="boolean" value="false" -->
+<!-- TemplateParam name="isSShayanPress"    type="boolean" value="false" -->
+<!-- TemplateParam name="isSShayanPoems"    type="boolean" value="false" -->
+<!-- TemplateParam name="isSShayanBio"      type="boolean" value="false" -->
+<!-- TemplateParam name="isSShayanNews"     type="boolean" value="false" -->
+
+<!-- TemplateParam name="isServices"        type="boolean" value="false" -->
+
+<!-- TemplateParam name="isBooks"           type="boolean" value="false" -->
+<!-- TemplateParam name="isBooksLuula"      type="boolean" value="false" -->
+<!-- TemplateParam name="isBooksMira1"      type="boolean" value="false" -->
+<!-- TemplateParam name="isBooksMira2"      type="boolean" value="false" -->
+<!-- TemplateParam name="isBooksKanneh"     type="boolean" value="false" -->
+<!-- TemplateParam name="isBooksSirkka"     type="boolean" value="false" -->
+<!-- TemplateParam name="isBooksEnkeli"     type="boolean" value="false" -->
+
+<!-- TemplateParam name="isCards"           type="boolean" value="false" -->
+<!-- TemplateParam name="isCardsElvira"     type="boolean" value="false" -->
+<!-- TemplateParam name="isCardsEtMag"      type="boolean" value="false" -->
+<!-- TemplateParam name="isCardsOther"      type="boolean" value="false" -->
+
+<!-- TemplateParam name="isContact"         type="boolean" value="false" -->
+
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body id="@@(isHome?'home':isSShayan?'team':isServices?'services':isBooks?'books':isCards?'cards':isContact?'contact':
+			 isSShayanAppear||isSShayanPress||isSShayanPoems||isSShayanBio||isSShayanNews?'team-sub':
+			 isBooksLuula||isBooksMira1||isBooksMira2||isBooksKanneh||isBooksSirkka||isBooksEnkeli?'books-sub':
+			 isCardsElvira||isCardsEtMag||isCardsOther?'cards-sub':
+			 'home-sub'
+	)@@" class="@@(hasExtraColumn?'col-SMX':subIsOnLeft?'col-SM':'col-MS')@@">
+
+<div id="header">
+	<a href="default.htm" title="link to home"><img src="../images/logo_tt_180.gif" width="180" height="45" alt="TaideTalli" id="logo" /></a>
+	<div id="nav"><div>
+		@@(isHome?'<strong>':'<a href="default.htm">')@@Etusivu@@(isHome?'</strong>':'</a>')@@
+		<span>|</span>
+		@@(isSShayan||isSShayanAppear||isSShayanPress||isSShayanPoems||isSShayanBio||isSShayanNews?'<strong>':'')@@@@(!isSShayan?'<a href="sshayan.htm">':'')@@S. Shayan@@(!isSShayan?'</a>':'')@@@@(isSShayan||isSShayanAppear||isSShayanPress||isSShayanPoems||isSShayanBio||isSShayanNews?'</strong>':'')@@
+		<span>|</span>
+		@@(isServices?'<strong>':'')@@@@(!isServices?'<a href="services.htm">':'')@@Palveluita@@(!isServices?'</a>':'')@@@@(isServices?'</strong>':'')@@
+		<span>|</span>
+		@@(isBooks||isBooksLuula||isBooksMira1||isBooksMira2||isBooksKanneh||isBooksSirkka||isBooksEnkeli?'<strong>':'')@@@@(!isBooks?'<a href="books.htm">':'')@@Kirjat@@(!isBooks?'</a>':'')@@@@(isBooks||isBooksLuula||isBooksMira1||isBooksMira2||isBooksKanneh||isBooksSirkka||isBooksEnkeli?'</strong>':'')@@
+		<span>|</span>
+		@@(isCards||isCardsElvira||isCardsEtMag||isCardsOther?'<strong>':'')@@@@(!isCards?'<a href="cards.htm">':'')@@Grafiikka@@(!isCards?'</a>':'')@@@@(isCards||isCardsElvira||isCardsEtMag||isCardsOther?'</strong>':'')@@
+		<span>|</span>
+		@@(isContact?'<strong>':'<a href="contact.htm">')@@Kontakti@@(isContact?'</strong>':'</a>')@@
+		<em>&nbsp;</em>
+	</div></div>
+</div>
+
+<!-- TemplateBeginIf cond="!isHome" -->
+<p id="bc">
+    <span>
+    <a href="default.htm">home</a> 
+    &gt;
+<!-- TemplateBeginIf cond="isSShayan||isServices||isBooks||isCards||isContact" -->
+	@@(isSShayan?'s shayan':isServices?'services':isBooks?'books':isCards?'cards':isContact?'contact':'home')@@
+<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="!isSShayan&&!isServices&&!isBooks&&!isCards&&!isContact" -->
+	@@(isSShayanAppear||isSShayanPress||isSShayanPoems||isSShayanBio||isSShayanNews?'<a href="sshayan.htm" >S. Shayan</a>':
+	   isBooksLuula||isBooksMira1||isBooksMira2||isBooksKanneh||isBooksSirkka||isBooksEnkeli?'<a href="books.htm">books</a>':
+	   isCardsElvira||isCardsEtMag||isCardsOther?'<a href="cards.htm">cards</a>':
+	   'XXXXX')@@
+	&gt; 
+	@@(isSShayanAppear?!isDetail?'appearances':'<a href=appearances.htm>appearances</a>':
+	   isSShayanPress?!isDetail?'press kit':'<a href=press.htm>press kit</a>':
+	   isSShayanPoems?!isDetail?'poems':'<a href=poems.htm>poems</a>':
+	   isSShayanBio?!isDetail?'biography':'<a href=biograghy.htm>biography</a>':
+	   isSShayanNews?!isDetail?'news':'<a href=news.htm>news</a>':
+	   isBooksLuula?'luula':isBooksMira1?'mira 1':isBooksMira2?'mira 2':isBooksKanneh?'kannehkava':isBooksSirkka?'Sirkka metropolien mallisirkuksessa':isBooksEnkeli?'Enkeleitä Sydämeesi':
+	   isCardsElvira?'elviira':isCardsEtMag?'et magazine':isCardsOther?'Other':
+	   'xxxxx')@@
+<!-- TemplateBeginIf cond='isDetail' -->
+	&gt;
+	@@(docTitle)@@
+<!-- TemplateEndIf -->   
+	   
+<!-- TemplateEndIf -->
+    </span>
+    &nbsp;
+</p>
+<!-- TemplateEndIf -->
+
+
+<!-- Page Title -->
+<h1>@@(contentTitle)@@</h1>
+
+<!-- Section Header and Navigation -->
+<div id="section">
+<!-- TemplateBeginIf cond="isHome" -->
+	<div>
+	  <div class="content">
+		<div class="subcol">
+			<p>
+				<em>
+				TaideTalli on kirjailija/taiteilija Sirkka Shayanin yritys. Nimi ja logo ovat 
+				perint&ouml;&auml; hänen taiteilija-is&auml;lt&auml;än.  Sirkan tuotanto  on erilaista
+				kuin isän, mutta rakkaus voimakkaisiin v&auml;reihin ja luontoon on ehk&auml; 
+				my&ouml;skin periytynyt.
+				Oheisena on  lyhyt <a href="sshayan.htm">henkil&ouml;profiili</a></em>
+			    <em>Sirkasta</em></p>
+				</em>
+			</p>
+		</div>
+		<div class="maincol">
+			<div class="ad">
+				<hr class="hide" />
+				<h2>
+					<a href="/events/2006/jan/">
+						<img src="../images/ssmed.gif" alt="Picture of Sirkka Shayan" width="104" height="144" /> 
+					</a>
+					<a href="/events/2005/dec/">
+						<strong>Sirkka Shayan</strong>
+					</a>
+				</h2>
+				<p>
+			  <p>Sirkka Shayanin tuotanto  jakautuu p&auml;&auml;asiassa 
+				    kahteen suuntaan: kaunokirjallisuus ja grafiikka/maalaukset.
+			  </p>
+				   <p>Muunkinlaista kirjoittelua Sirkan kyn&auml; on silloin t&auml;ll&ouml;in 
+				   saanut aikaan, kuten <a href="poems.htm">runoja ja laulujen sanoituksia.</a>
+				</p>
+				<span class="reset"></span>
+				<hr class="hide" />
+			</div>
+		</div>
+		<span class="reset"></span>
+	  </div>
+	</div>
+<!-- TemplateEndIf -->
+
+<!-- TemplateBeginIf cond="!isHome" -->
+<!-- TemplateBeginMultipleIf -->
+<!-- TemplateBeginIfClause cond="isSShayan||isSShayanAppear||isSShayanPress||isSShayanPoems||isSShayanBio||isSShayanNews" -->
+	<h4><strong><span>SShayan Sections:</span></strong></h4>
+	<ul>
+		<li>@@(isSShayanAppear?'<strong>':'')@@@@(!isSShayanAppear||isDetail?'<a href="appearances.htm">':'')@@Tulevaa@@(!isSShayanAppear||isDetail?'</a>':'')@@@@(isSShayanAppear?'</strong>':'')@@</li>
+		<li>@@(isSShayanPress? '<strong>':'')@@@@(!isSShayanPress ||isDetail?'<a href="press.htm">'      :'')@@lehdistö@@(!isSShayanPress ||isDetail?'</a>':'')@@@@(isSShayanPress ?'</strong>':'')@@</li>
+		<li>@@(isSShayanPoems? '<strong>':'')@@@@(!isSShayanPoems ||isDetail?'<a href="poems.htm">'  :'')@@runoja@@(!isSShayanPoems||isDetail?'</a>':'')@@@@(isSShayanPoems ?'</strong>':'')@@</li>
+		<li>@@(isSShayanBio?   '<strong>':'')@@@@(!isSShayanBio   ||isDetail?'<a href="biograghy.htm">'  :'')@@CV@@(!isSShayanBio||isDetail?'</a>':'')@@@@(isSShayanBio   ?'</strong>':'')@@</li>
+		<li>@@(isSShayanNews?  '<strong>':'')@@@@(!isSShayanNews  ||isDetail?'<a href="news.htm">'   :'')@@Uutisia@@(!isSShayanNews||isDetail?'</a>':'')@@@@(isSShayanNews  ?'</strong>':'')@@<em>&nbsp;</em></li>
+	</ul>
+<!-- TemplateEndIfClause -->
+<!-- TemplateBeginIfClause cond="isServices" -->
+	<h4><strong><span>Services Sections:</span></strong></h4>
+	<ul>
+		<li><em>&nbsp;</em></li>
+	</ul>
+<!-- TemplateEndIfClause -->
+<!-- TemplateBeginIfClause cond="isBooks||isBooksLuula||isBooksMira1||isBooksMira2||isBooksKanneh||isBooksSirkka||isBooksEnkeli" -->
+	<h4><strong><span>Books Sections:</span></strong></h4>
+	<ul>
+		<li>@@(isBooksLuula?'<strong>':'')@@@@(!isBooksLuula||isDetail?'<a href="Luula.htm">':'')@@Luula@@(!isBooksLuula||isDetail?'</a>':'')@@@@(isBooksLuula?'</strong>':'')@@</li>
+		<li>@@(isBooksMira1?'<strong>':'')@@@@(!isBooksMira1||isDetail?'<a href="Mira1.htm">':'')@@Mira ja skarabeen salaisuus@@(!isBooksMira1||isDetail?'</a>':'')@@@@(isBooksMira1?'</strong>':'')@@</li>
+		<li>@@(isBooksMira2?'<strong>':'')@@@@(!isBooksMira2||isDetail?'<a href="Mira2.htm">':'')@@Mira ja Kameliryöstäjät@@(!isBooksMira2||isDetail?'</a>':'')@@@@(isBooksMira2?'</strong>':'')@@</li>
+		<li>@@(isBooksKanneh?'<strong>':'')@@@@(!isBooksKanneh||isDetail?'<a href="kanneh.htm">':'')@@Kannehkawa@@(!isBooksKanneh||isDetail?'</a>':'')@@@@(isBooksKanneh?'</strong>':'')@@<em>&nbsp;</em></li>
+		<li>@@(isBooksSirkka?'<strong>':'')@@@@(!isBooksSirkka||isDetail?'<a href="SirkkaMetro.htm">':'')@@Sirkka metropolien mallisirkuksessa@@(!isBooksSirkka||isDetail?'</a>':'')@@@@(isBooksSirkka?'</strong>':'')@@<em>&nbsp;</em></li>
+		<li>@@(isBooksEnkeli?'<strong>':'')@@@@(!isBooksEnkeli||isDetail?'<a href="Enkeli.htm">':'')@@Enkeleitä Sydämeesi@@(!isBooksEnkeli||isDetail?'</a>':'')@@@@(isBooksEnkeli?'</strong>':'')@@<em>&nbsp;</em></li>
+	</ul>
+<!-- TemplateEndIfClause -->
+<!-- TemplateBeginIfClause cond="isCards||isCardsElvira||isCardsEtMag||isCardsOther" -->
+	<h4><strong><span>Cards Sections:</span></strong></h4>
+	<ul>
+		<li>@@(isCardsElvira?'<strong>':'')@@@@(!isCardsElvira||isDetail?'<a href="ecards.htm">':'')@@Elviira@@(!isCardsElvira||isDetail?'</a>':'')@@@@(isCardsElvira?'</strong>':'')@@</li>
+		<li>@@(isCardsEtMag?'<strong>':'')@@@@(!isCardsEtMag||isDetail?'<a href="etpics.htm">':'')@@ET lehti@@(!isCardsEtMag||isDetail?'</a>':'')@@@@(isCardsEtMag?'</strong>':'')@@</li>
+		<li>@@(isCardsOther?'<strong>':'')@@@@(!isCardsOther||isDetail?'<a href="ocards.htm">':'')@@Muita kortteja@@(!isCardsOther||isDetail?'</a>':'')@@@@(isCardsOther?'</strong>':'')@@<em>&nbsp;</em></li>
+	</ul>
+<!-- TemplateEndIfClause -->
+<!-- TemplateBeginIfClause cond="isContact"-->
+	<h4><strong><span>Contact Sections:</span></strong></h4>
+	<ul>
+		<li><em>&nbsp;</em></li>
+	</ul>
+<!-- TemplateEndIfClause -->
+<!-- TemplateEndMultipleIf -->
+<!-- TemplateEndIf -->
+</div>
+<!-- End Section Header and Navigation -->
+
+
+<!-- Start Content -->
+<div id="content">
+
+
+<!-- Column Wrap -->
+<div class="wrap">
+
+
+<!-- Main Column -->
+	<div class="maincol">
+		<!-- TemplateBeginEditable name="MainColumn" -->
+			Main Column Comes Here ....
+		<!-- TemplateEndEditable -->
+	</div>
+<!-- End Main Column -->
+
+	<hr class="hide" />
+
+<!-- Sub Column -->
+	<div class="subcol">
+		<!-- TemplateBeginEditable name="SubColumn" -->
+			&nbsp;&nbsp;
+		<!-- TemplateEndEditable -->
+	</div>
+<!-- End Sub Column -->
+
+
+</div>
+<!-- End Wrap -->
+
+
+<!-- Xtra Column -->
+<div class="xcol">
+		<!-- TemplateBeginEditable name="ExtraColumn" -->
+			&nbsp;&nbsp;
+		<!-- TemplateEndEditable -->
+</div>
+<!-- End Xtra Column -->
+
+
+</div>
+<!-- End Content -->
+
+
+<div id="footer">
+	<cite>&nbsp;</cite>
+	<hr />
+	<span>&copy; 2008 TaideTalli</span>
+	
+	<div>
+		<strong>TaideTalli</strong> <em>|</em>
+		A Venture of Sirkka Shayan 
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+/*
+-----------------------------------------------
+adaptive path print style
+version:  2003.07.11
+----------------------------------------------- */
+
+body {
+  background:white;
+  width:100%;
+  color:black;
+  margin:.25in 0;
+  font:10pt/16pt Georgia,Serif;
+  }
+
+
+/* Things we hide
+----------------------------------------------- */
+#nav, .hide, .mailbox {display:none;}
+
+
+/* Home
+----------------------------------------------- */
+#home h1 {
+  margin:.25em 0;
+  padding:0;
+  border:none;
+  color:black;
+  font:200%/1.2em Georgia,Serif;
+  }
+#home h1 strong, #home h2 strong {font-weight:normal;}
+#home .ad img {
+  float:left;
+  display:block;
+  margin:0 .125in 0 0;
+  }
+#home #section .ad {
+  margin:1em 0;
+  padding:1em 0 .5em;
+  border:.75pt solid gray;
+  border-width:.5pt 0;
+  }
+#home #section h2 {
+  margin:0 0 .25em;
+  font:170%/1.2em Georgia Serif;
+  }
+#home #section p {
+  margin:.5em 0;
+  font-size:90%;
+  line-height:1.5em;
+  }
+#home #section hr {display:none;}
+
+#newslist h3 {
+  font:85%/1.2em Verdana,Sans-serif;
+  margin:1.5em 0 .25em;
+  }
+#newslist p {
+  margin:0 0 1em;
+  }
+
+#subnav {
+  margin:1.5em 0;
+  padding:0;
+  }
+#subnav li {
+  list-style:none;
+  margin:0 0 1em  ;
+  padding:0;
+  }
+#subnav img {
+  float:left;
+  margin:0 .125in 0 0;
+  }
+
+
+/* Titles
+----------------------------------------------- */
+h1 {
+  padding:0 0 .1em;
+  border-bottom:.5pt solid #9c3;
+  font:160%/1.2em Arial,Verdana,Sans-serif;
+  color:#c00;
+  }
+h2 {
+  font:140%/1.2em Georgia,Serif;
+  margin:0 0 .5em;
+  }
+
+
+/* Links
+----------------------------------------------- */
+a {
+  text-decoration:none;
+  color:#039;
+  }
+
+
+/* Footer
+----------------------------------------------- */
+#footer {
+  margin:1em 0 0;
+  border-top:.5pt solid gray;
+  padding:.25em 0 0;
+  font:85%/1.5em Verdana,Sans-serif;
+  }
+#footer hr, #footer cite {display:none;}
+
+
+/* Misc
+----------------------------------------------- */
+.reset {
+  display:block;
+  margin:0;
+  clear:both;
+  font-size:.1pt;
+  height:.1pt;
+  line-height:.1pt;
+  }
